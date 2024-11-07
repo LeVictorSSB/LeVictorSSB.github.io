@@ -1,0 +1,30 @@
+h1 {
+    color : #2e2eb8;
+    text-align : center;
+    background : #bfbfbf
+}
+h2 {
+    text-align : center;
+    background : #cccccc
+}
+h3 {
+    text-align : center;
+    background : #d9d9d9
+}
+h4 {
+    text-align : center;
+    background : #e6e6e6
+}
+ul {
+    text-align : center;
+    background : #f2f2f2
+}
+
+p {
+    text-align : center;
+}
+
+form {
+    text-align : center;
+}
+
