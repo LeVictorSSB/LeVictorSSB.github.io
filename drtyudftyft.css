@@ -27,9 +27,7 @@ body{
 header{
     width: 17.3%;
     background-color: black;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #2f3336;
+
 }
 
 main{
@@ -43,9 +41,6 @@ main{
 aside{
     width: 25.6%;
     background-color: black;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #2f3336;
 }
 
 footer{
@@ -54,7 +49,7 @@ footer{
 }
 
 #cat{
-    height: 5.5%;
+    height: 55px;
     display:flex;
     flex-direction: row;
     justify-content: space-around;
@@ -89,6 +84,7 @@ footer{
 #posts{
     display :flex;
     justify-content: flex-end;
+    flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 60%;
     color :white
@@ -96,7 +92,7 @@ footer{
 
 #recherche{
     background-color:#202327;
-    border-radius : 5%;
+    border-radius : 25px;
     display :flex;
     justify-content: flex-start;
     align-items: center;
@@ -126,7 +122,7 @@ footer{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 60%;
     color :white;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 
 #premium2{
@@ -136,34 +132,72 @@ footer{
 }
 
 #suggestions{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #2f3336;
+
+    width: 350px;
+    height: 250px;
+
     display :flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 60%;
-    color :white
+    color :white;
+    border-radius: 15px;
+
+}
+
+#suggestions2{
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 25px;
+
 }
 
 #tendances{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #2f3336;
+
+    width: 350px;
+    height: 260px;
+
     display :flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 60%;
-    color :white
+    color :white;
+    border-radius: 15px;
+}
+
+#tendances2{
+    display: flex;
+    justify-content: flex-end;
+
 }
 
 #politique{
+    width: 350px;
+    height: 100px;
     display :flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 60%;
     color :white
 }
 
+#politique2{
+    display: flex;
+    justify-content: flex-end;
+}
+
 #pourVous{
+    text-decoration: underline #1d9bf0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 110%;
     color :white
-    
 }
 
 #abonnements{
@@ -198,6 +232,11 @@ footer{
     width: 100px;
 }
 
+#souscrire2{
+    display: flex;
+    flex-direction: row;
+}
+
 #compte{
     display: flex;
     flex-direction: column;
@@ -211,7 +250,7 @@ footer{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 110%;
     color :white;
-    height: 25px;     
+    height: 20px;     
 }
 
 #cat3{
@@ -222,7 +261,18 @@ footer{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 90%;
     color :#6c7175;
-    height: 25px;
+    height: 20px;
+}
+
+#cat4{
+    display :flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    color :#6c7175;
+    height: 20px;
 }
 
 #profil{
@@ -245,6 +295,10 @@ a{
 
 a :hover{
     background-color: #181818;
+}
+
+.click{
+    cursor: pointer;
 }
 
 
@@ -270,4 +324,30 @@ a :hover{
     color :white;
     height: 50px;
 
+}
+
+#follow{
+    display :flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    height: 30px;
+    width: 80px;
+
+}
+
+#follow2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#voirPlus{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    color: #1d9bf0;
 }
